@@ -97,10 +97,26 @@ Eg.
 
 ## Running services
 ### Instructions to run the UI
-_enter details here!_
+Follow the steps below to set up and run the frontend UI of the project locally:
+1. **Clone the Repository First**, you need to clone the repository to your local machine.
+    ```
+    git clone <repository_url>
+    cd <repository_name>
+2. **Install Dependencies** Install all the required dependencies using npm or yarn (depending on your package manager preference): 
 
-### Add a demonstration video 
-_make a demonstration video showcasing frontend not longer than 2-3min, just explain what you have done!_
+    ```
+      npm install 
+3. **Run the Application** Once the dependencies are installed and the environment is set up, you can start the development server:
+    ```
+    npm run start
+  This will start the frontend application at http://localhost:3000 by default.
+  
+4.  Access the Live Version To access the live version of the website, click on the following link:
+
+[Live Website](https://stockresearch.netlify.app/)
+
+This will redirect you to the deployed version of the app, where you can interact with the services and features in real-time.  
+
 
 ### Instructions to run the backend API
 ```bash
